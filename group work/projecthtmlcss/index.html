@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Html And Css</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@1,14..32&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,opsz@1,18..144&family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav collapsible">
+        <a href="/"
+          ><img src="./images/logo-230217-141400.png" alt="Team logo"
+        /></a>
+        <svg class="icon icon--white nav-toggler">
+          <use xlink:href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="nav-list collapsible-content">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#">Course</a></li>
+          <li class="nav-item"><a href="#">About</a></li>
+          <li class="nav-item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Hero-->
+    <section class="block block-dark block--skew-both">
+      <div class="grid grid--1x2">
+        <header class="block-header hero-content">
+          <h1 class="block-heading">ትምህርቲ ፥ ፈጠራነት ፥ ዕብየት</h1>
+          <p class="hero-tagline">ዝበለጸ ወፍሪ ኣብ ህይወትኩም ክትገብሩ ድሉዋት ዲኹም</p>
+          <a href="#" class="btn btn--accent">Get started</a>
+        </header>
+        <img class="hero-image" src="images/banner-230217-141400.png" alt="" />
+      </div>
+    </section>
+    <!--search-->
+    <section class="block-header">
+      <h2>እንቃዕ ደሓን መጻኩም!</h2>
+      <p class="hero-tagline">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, nisi
+        fuga modi veritatis numquam vel!
+      </p>
+      <div class="search-bar">
+        <input type="text" placeholder="Course ንምድላይ ኣብዚ ጸሓፉ..." />
+        <button class="btn btn--accent">
+          <svg class="icon icon--white search-icon">
+            <use xlink:href="images/sprite.svg#search"></use>
+          </svg>
+          SEARCH
+        </button>
+      </div>
+      <div class="search">
+        <a href="#" class="btn btn--search">HTML/CSS</a>
+        <a href="#" class="btn btn--search">python</a>
+        <a href="#" class="btn btn--search">JavaScript</a>
+        <a href="#" class="btn btn--search">Java</a>
+        <a href="#" class="btn btn--search">C#</a>
+        <a href="#" class="btn btn--search">Angular</a>
+      </div>
+    </section>
+    <!--pricing-->
+    <section class="grid grid--1x3">
+      <div class="block price-c">
+        <div style="height: 100; background-color: #00d9ff">
+          <p class="collapsible-title price-n">Silver</p>
+          <div class="price-r">
+            <h3 class="collapsible-title">
+              &pound; 25 <span class="month">/month</span
+              ><span class="money"> &pound; 15 OFF</span>
+            </h3>
+          </div>
+          <p class="collapsible-title price-pa">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit.
+          </p>
+        </div>
+        <ul class="btn--block price-f">
+          <li>
+            <img src="images/tick.svg" alt="tick" /> Access to full content
+            library
+          </li>
+          <li>
+            <img src="images/tick.svg" alt="tick" /> Access to private community
+          </li>
+          <li>
+            <img src="images/tick.svg" alt="tick" /> Access to live project
+            demos
+          </li>
+          <li>
+            <img src="images/tick.svg" alt="tick" /> Certificate of completion
+          </li>
+        </ul>
+        <a href="#" class="btn btn--search btn--block b--price">Buy now</a>
+      </div>
+
+      <div class="block price-c">
+        <div style="height: 100; background-color: #2584ff">
+          <p class="collapsible-title price-n">
+            Gold <img class="popular" src="images/popular.svg" alt="Popular" />
+          </p>
+          <div>
+            <h3 class="collapsible-title">
+              &pound; 50 <span class="month">/month</span>
+              <span class="money">15% OFF</span>
+            </h3>
+          </div>
+          <p class="collapsible-title price-pa">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit.
+          </p>
+        </div>
+        <ul class="btn--block price-f">
+          <li>
+            <img src="images/tick.svg" alt="tick" /> Everything from Silver
+          </li>
+          <li>
+            <img src="images/tick.svg" alt="tick" /> Access to private community
+          </li>
+          <li>
+            <img src="images/tick.svg" alt="tick" /> Access to live project
+            demos
+          </li>
+          <li>
+            <img src="images/tick.svg" alt="tick" /> Certificate of completion
+          </li>
+          <li>
+            <img src="images/tick.svg" alt="tick" /> Access to live project
+            demos
+          </li>
+        </ul>
+        <a href="#" class="btn btn--price btn--block b--price">Buy now</a>
+      </div>
+
+      <div class="block price-c">
+        <div style="height: 100; background-color: #00d9ff">
+          <p class="collapsible-title price-n">Platinum</p>
+          <div>
+            <h3 class="collapsible-title">
+              &pound; 75 <span class="month">/month</span>
+              <span class="money">15% OFF</span>
+            </h3>
+          </div>
+          <p class="collapsible-title price-pa">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit.
+          </p>
+        </div>
+        <ul class="btn--block price-f">
+          <li><img src="images/tick.svg" alt="tick" /> Everything from Gold</li>
+          <li>
+            <img src="images/tick.svg" alt="tick" /> Access to private community
+          </li>
+          <li>
+            <img src="images/tick.svg" alt="tick" /> Access to live project
+            demos
+          </li>
+          <li>
+            <img src="images/tick.svg" alt="tick" /> Access to live project
+            demos
+          </li>
+          <li>
+            <img src="images/tick.svg" alt="tick" /> Certificate of completion
+          </li>
+        </ul>
+        <a href="#" class="btn btn--search btn--block b--price">Buy now</a>
+      </div>
+    </section>
+    <!--why study-->
+    <section>
+      <div class="block block-header">
+        <h2 class="block-heading">Why study with us?</h2>
+        <p class="hero-tagline">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum omnis
+          molestias, sint aperiam totam cupiditate ut nihil ipsa tenetur
+          accusamus, nisi at? Repellendus, tempore nihil?
+        </p>
+      </div>
+
+      <div class="grid grid--1x2 block">
+        <div>
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#Programmer"></use>
+            </svg>
+          </span>
+          <h3 class="block-heading whyyy">Expert-led video courses</h3>
+          <p class="hero-tagline">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+            dignissimos laboriosam ipsum atque pariatur sint.
+          </p>
+          <a href="#" class="btn btn--why">LEARN MORE &rarr;</a>
+        </div>
+        <div class="why-img">
+          <img src="images/video-230217-141400.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="grid grid--1x2 block why">
+        <div class="why-img">
+          <img src="images/support-230217-141400.jpg" alt="" />
+        </div>
+        <div>
+          <span class="icon-container">
+            <svg class="icon icon--primary icon-sec">
+              <use xlink:href="images/sprite.svg#Maintenance"></use>
+            </svg>
+          </span>
+
+          <h3 class="block-heading">24/7 Customer Support</h3>
+          <p class="hero-tagline">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            delectus quas harum ducimus maiores maxime praesentium illo magni?
+            Autem harum, perferendis eligendi perspiciatis a saepe.
+          </p>
+          <a href="#" class="btn btn--why">LEARN MORE &rarr;</a>
+        </div>
+      </div>
+
+      <div class="grid grid--1x2 block">
+        <div>
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#Code Development"></use>
+            </svg>
+          </span>
+          <h3 class="block-heading">Interactive learning</h3>
+          <p class="hero-tagline">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+            minima aliquam ab laudantium optio hic ducimus corrupti, provident
+            architecto, officiis dolore repellat, amet dignissimos. Aperiam.
+          </p>
+          <a href="#" class="btn btn--why">LEARN MORE &rarr;</a>
+        </div>
+        <div class="why-img">
+          <img src="images/interactive-230217-141400.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--natu photo-->
+    <section class="block block-header">
+      <h2 class="block-heading">Message from instructor</h2>
+      <p class="hero-tagline">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla,
+        corrupti corporis eveniet, temporibus, dolor in minima est vitae quam
+        aliquam amet distinctio dicta? Iusto, eveniet?
+      </p>
+      <div class="natu-card grid grid--1x2">
+        <div>
+          <img src="images/instructor-230217-141400.jpg" alt="" />
+        </div>
+        <div class="natu-quote">
+          <span class="natu-icon">
+            <svg class="icon icon--white">
+              <use xlink:href="images/sprite.svg#quotes"></use>
+            </svg>
+          </span>
+          <p class="hero-tagline">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, modi
+            nostrum commodi veniam debitis perspiciatis ipsam animi facere
+            voluptate enim doloribus exercitationem libero ut accusamus nam
+            omnis temporibus impedit aliquam."
+          </p>
+          <p class="natu-name">
+            <span class="natu-line">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#line"></use></svg></span
+            >Natnael Ghilazghi
+          </p>
+          <p class="hero-tagline instructor">Instructor</p>
+        </div>
+      </div>
+    </section>
+    <!--footer 2-->
+    <section class="block block-blue">
+      <header class="block-header">
+        <h2 class="block-heading">Ready to Get Started?</h2>
+        <div class="grid grid--1x2">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eos quod
+            doloribus quasi consequuntur facilis animi rem voluptatem temporis
+            line provident deleinti, veniam, placeat ipsum hic aliquid delectus
+            iusto, pariatur vel?
+          </p>
+
+          <a href="#" class="btn btn--secondary">GET STARTED</a>
+        </div>
+      </header>
+    </section>
+    <!--footer-->
+    <footer class="block block-dark nav">
+      <div class="block-header collapsible-header footer">
+        <div>
+          <a href="/">
+            <img src="images/logo-230217-141400.png" alt="Logo"
+          /></a>
+          <p class="hero-tagline">&COPY;Copyright2023</p>
+        </div>
+
+        <div class="collapsible">
+          <h2 class="collapsible-title">HOME</h2>
+          <svg class="icon icon--white collapsible-chevron">
+            <use xlink:href="images/sprite.svg#chevron"></use>
+          </svg>
+          <div class="nav-list collapsible-content">
+            <p>Why Us</p>
+            <p>Price Plans</p>
+            <p>Reviews</p>
+          </div>
+        </div>
+
+        <div class="collapsible">
+          <h2 class="collapsible-title">COURSES</h2>
+          <svg class="icon icon--white collapsible-chevron">
+            <use xlink:href="images/sprite.svg#chevron"></use>
+          </svg>
+          <div class="nav-list collapsible-content">
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+
+        <div class="collapsible">
+          <h2 class="collapsible-title">ABOUT</h2>
+          <svg class="icon icon--white collapsible-chevron">
+            <use xlink:href="images/sprite.svg#chevron"></use>
+          </svg>
+          <div class="nav-list collapsible-content">
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+
+        <div class="collapsible">
+          <h2 class="collapsible-title">CONTACT</h2>
+          <svg class="icon icon--white collapsible-chevron">
+            <use xlink:href="images/sprite.svg#chevron"></use>
+          </svg>
+          <div class="nav-list collapsible-content">
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
