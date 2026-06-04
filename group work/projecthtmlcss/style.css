@@ -397,8 +397,8 @@ p {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 50px;
-  left: -15%;
+  top: 40px;
+  left: -10%;
   transform: translateX(-10%);
 }
 .natu-name {
@@ -409,6 +409,7 @@ p {
   align-items: center;
   gap: 8px;
 }
+  
 .natu-line {
   display: inline-flex;
 }
