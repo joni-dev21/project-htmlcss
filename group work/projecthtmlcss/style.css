@@ -397,8 +397,8 @@ p {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 50px;
-  left: -15%;
+  top: 10px;
+  left: -13%;
   transform: translateX(-10%);
 }
 .natu-name {
@@ -450,3 +450,4 @@ p {
     display: none;
   }
 }
+
